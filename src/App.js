@@ -1,14 +1,12 @@
-import './App.css';
-import Header from './components/Header'
-import React from 'react';
-// import Particles from 'react-particles-js';
+import React from "react";
+import ParticleComponent from "./components/ParticlesBackground";
 
-function App() {
+const App = () => {
   return (
-    <div className="app">
-      <Header />
+    <div>
+      <ParticleComponent />
     </div>
   );
-}
+};
 
 export default App;
