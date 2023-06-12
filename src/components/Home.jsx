@@ -1,10 +1,11 @@
 import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import backgroundImage from "./background.png";
-import "./ParticleComponent.css"; // Import a separate CSS file for styles
+import backgroundImage from "./pictures/background.png"
+import "../globals.css"
+import Navbar from "./Navbar";
 
-const ParticleComponent = () => {
+const Home = () => {
   const particlesInit = useCallback(async (engine) => {
     console.log(engine);
     await loadFull(engine);
@@ -15,7 +16,8 @@ const ParticleComponent = () => {
   }, []);
 
   return (
-    <div className="particle-container">
+    <div className = "particle-container">
+        <Navbar></Navbar>
       <Particles
         id="tsparticles"
         init={particlesInit}
@@ -27,7 +29,11 @@ const ParticleComponent = () => {
                 repeat: "no-repeat", // Set the repeat behavior of the background image
                 size: "cover", // Adjust the size of the background image
             },
-            fpsLimit: 120,
+            fullScreen: {
+                enable: false,
+                zIndex: 0,
+            },
+            fpsLimit: 60,
             interactivity: {
                 events: {
                     onClick: {
@@ -71,7 +77,7 @@ const ParticleComponent = () => {
                         default: "bounce",
                     },
                     random: false,
-                    speed: 2,
+                    speed: 1,
                     straight: false,
                 },
                 number: {
@@ -79,7 +85,7 @@ const ParticleComponent = () => {
                         enable: true,
                         area: 800,
                     },
-                    value: 80,
+                    value: 50,
                 },
                 opacity: {
                     value: 0.5,
@@ -87,6 +93,7 @@ const ParticleComponent = () => {
                 shape: {
                     type: "circle",
                 },
+                reduceDuplicates: true,
                 size: {
                     value: { min: 1, max: 5 },
                 },
@@ -94,8 +101,8 @@ const ParticleComponent = () => {
             detectRetina: true,
         }}
       />
-    </div>
+      </div>
   );
 };
 
-export default ParticleComponent;
+export default Home;
