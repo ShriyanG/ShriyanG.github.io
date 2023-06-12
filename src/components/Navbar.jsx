@@ -6,23 +6,67 @@ const Navbar = () => {
     scroll.scrollTo(section);
   };
 
-const handleLinkClick = (section, event) => {
-    event.preventDefault(); // Prevent the default link behavior
+  const handleLinkClick = (section, event) => {
+    event.preventDefault();
     scrollToSection(section);
   };
 
   return (
-    <nav>
-      <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+    <nav className="navbar-container">
+      <ul className="navbar-list">
         <li>
           <Link
-            to="testSection"
+            to="about"
             smooth={true}
             duration={1000}
-            onClick={(event) => handleLinkClick("testSection", event)}
-            style={{ color: "white" }}
+            onClick={(event) => handleLinkClick("about", event)}
+            className="navbar-link"
           >
-            Home
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="about"
+            smooth={true}
+            duration={1000}
+            onClick={(event) => handleLinkClick("about", event)}
+            className="navbar-link"
+          >
+            Experience
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="about"
+            smooth={true}
+            duration={1000}
+            onClick={(event) => handleLinkClick("about", event)}
+            className="navbar-link"
+          >
+            Education
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="about"
+            smooth={true}
+            duration={1000}
+            onClick={(event) => handleLinkClick("about", event)}
+            className="navbar-link"
+          >
+            Projects
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="about"
+            smooth={true}
+            duration={1000}
+            onClick={(event) => handleLinkClick("about", event)}
+            className="navbar-link"
+          >
+            Skills
           </Link>
         </li>
       </ul>

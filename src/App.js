@@ -1,15 +1,14 @@
 import React from "react";
-import ParticleComponent from "./components/ParticlesBackground";
-import Navbar from "./components/Navbar";
-import TestSection from "./components/TestSection";
+import Home from "./components/Home";
+import AboutSection from "./components/About";
 
 const App = () => {
   return (
-    <div style={{ position: "relative", minHeight: "100vh" }}>
-      <Navbar />
-      <ParticleComponent />
-      <div style={{ position: "absolute", top: "100%", width: "100%" }}>
-        <TestSection />
+    <div>
+        <Home/>
+      <div className = "About">
+        <AboutSection/>
+        <AboutSection/>
       </div>
     </div>
   );

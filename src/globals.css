@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+.particle-container {
+  height: 100vh;
+}
+#tsparticles {
+  height: 101vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+}
+
+#About {
+  position: relative;
+}
+
+#about {
+  height: 20vh;
+  margin-top: 0vh; 
+}
+
+.navbar-list {
+  background-color: black;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Align items to the right side */
+}
+
+.navbar-link {
+  color: white;
+  cursor: pointer;
+  font-size: 24px;
+  margin-left: 10px; 
+  margin-right: 10px; 
+  padding-right: 10px;
+}
+
+.navbar-link:hover {
+  color: aqua; /* Change the color on hover, modify as desired */
+}
