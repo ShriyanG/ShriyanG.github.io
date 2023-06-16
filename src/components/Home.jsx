@@ -19,6 +19,7 @@ const Home = () => {
     <div className = "particle-container">
         <Navbar></Navbar>
         <h1 className="title">Shriyan Gosavi</h1>
+        <h1 className="position">Software Engineer</h1>
       <Particles
         id="tsparticles"
         init={particlesInit}
