@@ -19,7 +19,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={1000}
-            onClick={(event) => handleLinkClick("about", event)}
+            onClick={(event) => handleLinkClick("about-section", event)}
             className="navbar-link"
           >
             About
