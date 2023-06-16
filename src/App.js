@@ -4,11 +4,12 @@ import AboutSection from "./components/About";
 
 const App = () => {
   return (
-    <div>
-        <Home/>
-      <div className = "About">
-        <AboutSection/>
-        <AboutSection/>
+    <div className="app-container">
+      <div className="home-section">
+        <Home />
+      </div>
+      <div className="about-section">
+        <AboutSection />
       </div>
     </div>
   );
