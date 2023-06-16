@@ -34,11 +34,29 @@
 }
 
 .about-section {
-  height: 20vh;
+  height: 30vh;
+  margin-top: 0;
   background-color: gray;
-  color: "black";
+  color: black;
+  display: flex;
+  align-items: center;
 }
 
-.about-text {
-  margin: 0;
+.profile-image {
+  width: 150px; /* Adjust the width and height as per your requirements */
+  height: 150px;
+  border-radius: 50%; /* Applies a circular shape to the image */
+  object-fit: cover; /* Maintains the aspect ratio of the image */
+  margin-right: 20px; /* Adds some spacing between the image and text */
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 40px;
+  text-align: center;
 }
