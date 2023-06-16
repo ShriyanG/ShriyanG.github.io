@@ -1,33 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
-.particle-container {
+.home-section {
   height: 100vh;
 }
+.about-section {
+  height: 20vh;
+  margin-top: 0vh; 
+  background-color: gray;
+  color: "black";
+}
 #tsparticles {
-  height: 101vh;
-  position: absolute;
+  position: relative;
   left: 0;
   right: 0;
   margin: 0;
   padding: 0;
   z-index: -1;
 }
-
-#About {
-  position: relative;
-}
-
-#about {
-  height: 20vh;
-  margin-top: 0vh; 
-}
-
 .navbar-list {
+  height: 4vh;
   background-color: black;
-  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: flex-end; /* Align items to the right side */
+  justify-content: flex-end;
 }
 
 .navbar-link {
@@ -40,5 +35,5 @@
 }
 
 .navbar-link:hover {
-  color: aqua; /* Change the color on hover, modify as desired */
+  color: aqua;
 }
