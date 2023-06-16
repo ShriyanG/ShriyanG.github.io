@@ -1,8 +1,9 @@
 import React from "react";
+import profileImage from "./pictures/profile.jpg"
 const AboutSection = () => {
   return (
     <div className = "about">
-      <p className="about-text">About me</p>
+      <img className="profile-image" src={profileImage} alt="Profile" />
     </div>
   );
 };
