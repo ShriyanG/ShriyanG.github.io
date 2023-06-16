@@ -9,6 +9,7 @@
   margin: 0;
   display: flex;
   justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .navbar-link {
@@ -52,11 +53,12 @@
 
 .title {
   position: absolute;
+  font-family: 'Montserrat', sans-serif;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
 }
