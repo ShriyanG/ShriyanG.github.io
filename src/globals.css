@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap");
 .home-section {
   height: 100vh;
 }
@@ -9,15 +9,15 @@
   margin: 0;
   display: flex;
   justify-content: flex-end;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .navbar-link {
   color: white;
   cursor: pointer;
   font-size: 24px;
-  margin-left: 10px; 
-  margin-right: 10px; 
+  margin-left: 10px;
+  margin-right: 10px;
   padding-right: 10px;
 }
 
@@ -34,26 +34,9 @@
   z-index: -1;
 }
 
-.about-section {
-  height: 30vh;
-  margin-top: 0;
-  background-color: gray;
-  color: black;
-  display: flex;
-  align-items: center;
-}
-
-.profile-image {
-  width: 150px; /* Adjust the width and height as per your requirements */
-  height: 150px;
-  border-radius: 50%; /* Applies a circular shape to the image */
-  object-fit: cover; /* Maintains the aspect ratio of the image */
-  margin-right: 20px; /* Adds some spacing between the image and text */
-}
-
 .title {
   position: absolute;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -65,7 +48,7 @@
 
 .position {
   position: absolute;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   top: 70%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -73,4 +56,52 @@
   color: white;
   font-size: 30px;
   text-align: center;
+}
+
+.about-section {
+  height: 50vh;
+  margin-top: 0;
+  background-color: white;
+  color: black;
+  display: flex;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 250px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hello-text {
+  font-size: 50px;
+  font-weight: bold;
+  color: metallic;
+  margin-top: 10px; /* Adjust the spacing as needed */
+  font-family: "Montserrat", sans-serif;
+}
+
+.additional-info {
+  display: flex;
+  align-items: center;
+  margin-left: 300px;
+  margin-right: 100px;
+  color: light gray;
+  font-size: 18px; 
+  margin-top: -100px;
+  font-family: "Montserrat", sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
