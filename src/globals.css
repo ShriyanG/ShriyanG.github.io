@@ -64,7 +64,7 @@
   background-color: white;
   color: black;
   display: flex;
-  border: 2px solid #E0E0E0;
+  border: 2px solid #e0e0e0;
 }
 
 .about {
@@ -90,7 +90,7 @@
 .hello-text {
   font-size: 50px;
   font-weight: bold;
-  color: metallic;
+  color: black;
   margin-top: 10px; /* Adjust the spacing as needed */
   font-family: "Montserrat", sans-serif;
 }
@@ -101,22 +101,23 @@
   margin-left: 300px;
   margin-right: 100px;
   color: light gray;
-  font-size: 18px; 
+  font-size: 18px;
   margin-top: -100px;
   font-family: "Montserrat", sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .experience {
   text-align: center;
-  background-color: #E0E0E0;
-  border: 2px solid #E0E0E0;
+  background-color: #e0e0e0;
+  border: 2px solid #e0e0e0;
   height: 35vh;
 }
 
 .experience-heading {
   font-size: 30px;
   font-weight: bold;
-  color: metallic;
+  color: black;
+  font-family: "Montserrat", sans-serif;
 }
 
 .image-container {
@@ -132,4 +133,76 @@
   border-radius: 5px;
   object-fit: cover;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.education-section {
+  text-align: center;
+  border: 2px solid white;
+  background-color: white;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
+}
+
+.education-details {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.institution {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.institution-date-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  font-size: 16px;
+  color: #888;
+  text-align: right;
+}
+
+.degree {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.date {
+  font-size: 16px;
+  color: #888;
+}
+
+.relevant-coursework {
+  text-align: left;
+}
+
+.coursework-heading {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.coursework-list {
+  list-style-type: disc;
+  margin-left: 10px;
+}
+
+.coursework-list li {
+  margin-bottom: 5px;
 }

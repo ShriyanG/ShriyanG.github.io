@@ -38,10 +38,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="about"
+            to="education-section"
             smooth={true}
             duration={1000}
-            onClick={(event) => handleLinkClick("about", event)}
+            onClick={(event) => handleLinkClick("education-section", event)}
             className="navbar-link"
           >
             Education
