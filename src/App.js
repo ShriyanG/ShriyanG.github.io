@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./components/Home";
 import AboutSection from "./components/About";
+import ExperienceSection from "./components/Experience";
 
 const App = () => {
   return (
@@ -10,6 +11,9 @@ const App = () => {
       </div>
       <div className="about-section">
         <AboutSection />
+      </div>
+      <div className="experience-section">
+        <ExperienceSection />
       </div>
     </div>
   );

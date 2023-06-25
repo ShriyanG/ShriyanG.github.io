@@ -64,6 +64,7 @@
   background-color: white;
   color: black;
   display: flex;
+  border: 2px solid #E0E0E0;
 }
 
 .about {
@@ -104,4 +105,31 @@
   margin-top: -100px;
   font-family: "Montserrat", sans-serif;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.experience {
+  text-align: center;
+  background-color: #E0E0E0;
+  border: 2px solid #E0E0E0;
+  height: 35vh;
+}
+
+.experience-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: metallic;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.experience-image {
+  width: 400px;
+  height: 150px;
+  margin: 0 10px; /* Adjust the spacing as needed */
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
 }

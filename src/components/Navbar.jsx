@@ -16,7 +16,7 @@ const Navbar = () => {
       <ul className="navbar-list">
         <li>
           <Link
-            to="about"
+            to="about-section"
             smooth={true}
             duration={1000}
             onClick={(event) => handleLinkClick("about-section", event)}
@@ -27,10 +27,10 @@ const Navbar = () => {
         </li>
         <li>
           <Link
-            to="about"
+            to="experience-section"
             smooth={true}
             duration={1000}
-            onClick={(event) => handleLinkClick("about", event)}
+            onClick={(event) => handleLinkClick("experience-section", event)}
             className="navbar-link"
           >
             Experience
