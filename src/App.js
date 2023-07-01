@@ -4,6 +4,7 @@ import AboutSection from "./components/About";
 import ExperienceSection from "./components/Experience";
 import EducationSection from "./components/Education";
 import ProjectsSection from "./components/Projects";
+import SkillsSection from "./components/Skills";
 
 const App = () => {
   return (
@@ -22,6 +23,9 @@ const App = () => {
       </div>
       <div className="projects-section">
         <ProjectsSection />
+      </div>
+      <div className="skills-section">
+        <SkillsSection />
       </div>
     </div>
   );
