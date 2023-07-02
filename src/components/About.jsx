@@ -9,7 +9,12 @@ const AboutSection = () => {
         <p className="hello-text">Hello!</p>
       </div>
       <div className="additional-info">
-        <p>My name is Shriyan and I am a computer science student with a passion for machine learning, data analytics, and software engineering. I am a continuous learner who is eager for opportunities to employ my diverse skill set to solve real-world problems.</p>
+        <p>
+          My name is Shriyan and I am a computer science student with a passion
+          for machine learning, data analytics, and software engineering. I am a
+          continuous learner who is eager for opportunities to employ my diverse
+          skill set to solve real-world problems.
+        </p>
       </div>
     </div>
   );

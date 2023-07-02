@@ -9,7 +9,7 @@ import javascriptImage from "./pictures/javascript.png";
 import reactImage from "./pictures/react.png";
 import ocamlImage from "./pictures/ocaml.png";
 import nodeImage from "./pictures/nodejs.png";
-import javaImage from "./pictures/java.png"
+import javaImage from "./pictures/java.png";
 import matlabImage from "./pictures/matlab.png";
 // Import other skill icons
 

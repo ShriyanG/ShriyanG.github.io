@@ -58,6 +58,32 @@
   text-align: center;
 }
 
+.button-container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.button-container a {
+  display: inline-block;
+  margin: 20px 140px; /* Adjust the margin values to increase or decrease spacing */
+  padding: 12px 24px;
+  background-color: #333;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-container a:hover {
+  background-color: #555;
+  color: aqua;
+}
+
 .about-section {
   height: 50vh;
   margin-top: 0;
@@ -210,7 +236,7 @@
 .projects-section {
   text-align: center;
   border: 2px solid white;
-  background-color:#e0e0e0;
+  background-color: #e0e0e0;
 }
 
 .projects-title {
@@ -223,7 +249,6 @@
 .projects-container {
   gap: 20px;
 }
-
 
 .project {
   display: flex;

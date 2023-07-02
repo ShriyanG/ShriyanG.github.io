@@ -3,7 +3,7 @@ import Project from "./Project";
 import MLBImage from "./pictures/MLB.png";
 import planeImage from "./pictures/plane.png";
 import prisonImage from "./pictures/prison.png";
-import roundTableImage from "./pictures/roundtable.jpeg"
+import roundTableImage from "./pictures/roundtable.jpeg";
 
 const ProjectsSection = () => {
   const projects = [
@@ -33,18 +33,17 @@ const ProjectsSection = () => {
       description:
         "In collaboration with a talented team, we developed a captivating 7+ minute playable game using the Unreal gaming engine. Leveraging our skills in C/C++ and Blueprints, we implemented engaging game mechanics, stunning graphics, and intuitive user interface elements, resulting in a polished final product. Optimizing game performance, we identified use cases and resolved hardware and software platform compatibility issues, ensuring an enhanced and seamless gaming experience.",
       image: prisonImage,
-      codeLink:
-        "https://github.com/iramesh2/415prisonGame",
+      codeLink: "https://github.com/iramesh2/415prisonGame",
     },
     {
-        title: "RoundTable",
-        subtitle:
-          "An educational lightweight tool to seamlessly connect with virtual students",
-        description: "During an exhilarating hackathon, our collaborative team successfully designed and developed a front-end Android web application using ReactJS. Leveraging HTML and CSS, we created an intuitive and visually appealing interface specifically tailored for college students. To ensure secure user authentication, we implemented Google Firebase authentication, delivering a seamless and reliable login experience. Additionally, we worked closely together to establish a robust NoSQL database using Google Cloud Firestore, enabling efficient storage and retrieval of user login information.",
-        image: roundTableImage,
-        codeLink:
-          "https://github.com/jathinnm/HackThis2020",
-      },
+      title: "RoundTable",
+      subtitle:
+        "An educational lightweight tool to seamlessly connect with virtual students",
+      description:
+        "During an exhilarating hackathon, our collaborative team successfully designed and developed a front-end Android web application using ReactJS. Leveraging HTML and CSS, we created an intuitive and visually appealing interface specifically tailored for college students. To ensure secure user authentication, we implemented Google Firebase authentication, delivering a seamless and reliable login experience. Additionally, we worked closely together to establish a robust NoSQL database using Google Cloud Firestore, enabling efficient storage and retrieval of user login information.",
+      image: roundTableImage,
+      codeLink: "https://github.com/jathinnm/HackThis2020",
+    },
     // Add more projects as needed
   ];
 
