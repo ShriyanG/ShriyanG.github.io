@@ -69,7 +69,7 @@
 
 .button-container a {
   display: inline-block;
-  margin: 20px 140px; /* Adjust the margin values to increase or decrease spacing */
+  margin: 20px 120px; /* Adjust the margin values to increase or decrease spacing */
   padding: 12px 24px;
   background-color: #333;
   color: white;
