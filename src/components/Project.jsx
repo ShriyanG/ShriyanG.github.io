@@ -10,7 +10,12 @@ const Project = ({ title, subtitle, description, image, codeLink }) => {
         <h1 className="project-title">{title}</h1>
         <h2 className="project-subtitle">{subtitle}</h2>
         <p className="project-description">{description}</p>
-        <a href={codeLink} target="_blank" rel="noopener noreferrer" className="code-link">
+        <a
+          href={codeLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="code-link"
+        >
           Project Code
         </a>
       </div>
