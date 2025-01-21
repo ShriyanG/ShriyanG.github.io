@@ -4,7 +4,6 @@ const experiences = [
   {
     title: "Software Engineer",
     company: "Charles Schwab",
-    location: "Austin, TX",
     duration: "September 2023 - Present",
     responsibilities: [
       "Implementing services and API endpoints in the wealth and asset management domain optimized for data loads and preparing for GCP deployment using C# and Google Kubernetes Engine.",
@@ -12,23 +11,40 @@ const experiences = [
     ],
   },
   {
-    title: "Research Assistant",
-    company: "University of Illinois",
-    location: "Urbana-Champaign, IL",
-    duration: "Aug 2022 - Dec 2023",
+    title: "Machine Learning Intern",
+    company: "PipeIQ (Generative AI Startup)",
+    duration: "May 2023 - August 2023",
     responsibilities: [
-      "Worked on machine learning models for stock prediction.",
-      "Built pipelines to process financial datasets.",
-      "Presented findings at academic conferences.",
+      "Contributed to training Large Language Models for automated personalized sales emails and seamlessly integrated a React-based front-end with a generative AI backend on the company website, resulting in increased B2B customer engagement.",
+      "Developed Python scripts to automate email thread setup for businesses using Generative AI, achieving a 30% reduction in response time, and seamlessly integrated them with the company website through AWS Lambda, S3, and FastAPI.",
     ],
   },
   {
-    title: "Research Assistant",
+    title: "Undergraduate Researcher",
     company: "University of Illinois",
-    location: "Urbana-Champaign, IL",
-    duration: "Aug 2022 - Dec 2023",
+    duration: "November 2022 - August 2023",
     responsibilities: [
-      "Worked on machine learning models for stock prediction.",
+      "Developed an optimized Python environment to automatically store all variables and Python objects to improve memory management and increase runtime efficiency.",
+      "Automated testing by programmatically running selected cells and managing object dependencies using Python, resulting in increased testing efficiency.",
+    ],
+  },
+  {
+    title: "Software Engineering Intern",
+    company: "Charles Schwab",
+    duration: "May 2022 - August 2022",
+    responsibilities: [
+      "Experimented with a range of machine learning models, including decision trees, clustering algorithms, and neural networks to identify optimal Customer segmentation to build and offer personalized financial strategies to customers.",
+      "Enhanced wealth management ETL processes by building workflows and optimizing database performance using Informatica, SQL, and Denodo data virtualization platform.",
+    ],
+  },
+  {
+    title: "Student and Course Assistant",
+    company: "University of Illinois",
+    duration: "November 2022 - August 2023",
+    responsibilities: [
+      "Completed Bachelor's of Computer Science at University of Illinois at Urbana Champaign with key coursework in Artificial Intelligence, Applied Machine Learning, and Database Systems.",
+      "Delivered customized study sessions on data structures and computer architecture, and provided educational support to a team of 20 college students during office hours, resulting in a substantial improvement in their academic performance.",
+      "Created compelling study materials and presentations on data structures in C++, aiding students in comprehending the course material while maintaining an average workload of 8 hours per week.",
     ],
   },
 ];
