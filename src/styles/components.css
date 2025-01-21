@@ -1,0 +1,40 @@
+.button-container {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  text-align: center;
+}
+
+.button-container a {
+  display: inline-block;
+  margin: 20px 120px;
+  padding: 12px 24px;
+  background-color: #333;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-container a:hover {
+  background-color: #555;
+  color: #008080;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.experience-image {
+  width: 400px;
+  height: 150px;
+  margin: 0 10px;
+  border-radius: 5px;
+  object-fit: cover;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
+}

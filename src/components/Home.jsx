@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import backgroundImage from "./pictures/background.png";
-import "../globals.css";
+import "../styles/globals.css";
 import Navbar from "./Navbar";
 
 const Home = () => {
