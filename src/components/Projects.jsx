@@ -2,49 +2,40 @@ import React from "react";
 import Project from "./Project";
 import MLBImage from "./pictures/MLB.png";
 import planeImage from "./pictures/plane.png";
-import prisonImage from "./pictures/prison.png";
 import roundTableImage from "./pictures/roundtable.jpeg";
+import stocksImage from "./pictures/stocks.jpg";
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "ML(B)",
-      subtitle:
-        "Machine learning model to predict the outcome of baseball games",
+      title: "Stocks Analyzer",
       description:
-        "I had the opportunity to collaborate with a talented team while utilizing powerful machine learning libraries like Sci-kit and Numpy to develop a back-end application. Together, we created a logistic regression model that predicts baseball game outcomes with over 60% accuracy. Through experimentation with different algorithms, including AdaBoost, and the incorporation of component analysis to factor in influential MLB game statistics, we optimized the predictive capabilities of our solution. Additionally, I played a key role in implementing a Python parser using BeautifulSoup to efficiently scrape data from ESPN and MLB-Stats APIs, seamlessly integrating it with the front-end using Django. This collaborative effort highlights my proficiency in machine learning, data analysis, and web development.",
+        "Created a regression model to evaluate stock market trends by correlating options contracts with RSI indicators, improving trading predictions and achieving a Top 250 placement in IMC’s global trading competition. Automated preprocessing of interval-based stock data for RSI, volume, and price analysis using the Pandas library and Polygon.io Stock Data API.",
+      image: stocksImage,
+      codeLink: "https://github.com/ShriyanG/RSI_Stocks_Gosavi",
+    },
+    {
+      title: "ML(B)",
+      description:
+        "Utilized Sci-kit Learn, Numpy, and BeautifulSoup to develop a baseball prediction app backend with logistic regression and Adaboost models achieving over 60% accuracy, scraping data from ESPN and MLB-Stats APIs, analyzing key statistics with component analysis, and integrating with the frontend via Django.",
       image: MLBImage,
       codeLink: "https://github.com/CS196Illinois/Group25",
     },
     {
       title: "Direct Flights Database",
-      subtitle:
-        "Optimized database to help users plan trips with direct flights",
       description:
-        "Through my proficiency in MySQL, React, Python, and C++, I made significant contributions to the development of a comprehensive travel planning website. Leveraging MySQL, I implemented advanced queries, stored procedures, and efficient data management in the backend, ensuring a seamless user experience. Handling a database of over 65K routes, I efficiently parsed and fed data using Python's Pandas library, ensuring reliable data flow into the MySQL server. Additionally, I utilized C++ to implement powerful algorithms, including shortest-path algorithms, iterative search methods, and graph structures, enabling users to find the shortest flight path between two airports. This project showcases my expertise in backend development, frontend connectivity, data parsing, and algorithm implementation.",
+        "Leveraged MySQL, React, Python, and C++ to develop a travel planning website, implementing advanced queries and efficient data management to handle a database of over 65K routes, parsing data with Python’s Pandas, and employing C++ algorithms like shortest-path and graph structures to enable users to find optimal flight paths.",
       image: planeImage,
       codeLink:
         "https://github.com/lotlouischoitslab/Direct-Flight-Airport-Connections",
     },
     {
-      title: "Prison Break",
-      subtitle:
-        "Game developed from Unreal Game Engine to simulate a prison break",
-      description:
-        "In collaboration with a talented team, we developed a captivating 7+ minute playable game using the Unreal gaming engine. Leveraging our skills in C/C++ and Blueprints, we implemented engaging game mechanics, stunning graphics, and intuitive user interface elements, resulting in a polished final product. Optimizing game performance, we identified use cases and resolved hardware and software platform compatibility issues, ensuring an enhanced and seamless gaming experience.",
-      image: prisonImage,
-      codeLink: "https://github.com/iramesh2/415prisonGame",
-    },
-    {
       title: "RoundTable",
-      subtitle:
-        "An educational lightweight tool to seamlessly connect with virtual students",
       description:
-        "During an exhilarating hackathon, our collaborative team successfully designed and developed a front-end Android web application using ReactJS. Leveraging HTML and CSS, we created an intuitive and visually appealing interface specifically tailored for college students. To ensure secure user authentication, we implemented Google Firebase authentication, delivering a seamless and reliable login experience. Additionally, we worked closely together to establish a robust NoSQL database using Google Cloud Firestore, enabling efficient storage and retrieval of user login information.",
+        "Collaborated in a hackathon team to build a front-end web application using ReactJS, styled with HTML and CSS, to connect college students. Integrated Google Firebase authentication and worked with teammates to configure a NoSQL database in Google Cloud Firestore for storing user login information.",
       image: roundTableImage,
       codeLink: "https://github.com/jathinnm/HackThis2020",
     },
-    // Add more projects as needed
   ];
 
   return (

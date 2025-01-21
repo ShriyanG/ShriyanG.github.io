@@ -1,67 +1,97 @@
+.project-item {
+  background-color: black;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 65%;
+  color: #f0f0f0;
+  margin-left: auto;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.project-item:hover {
+  color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 179, 179, 0.8);
+  cursor: pointer;
+}
+
+.project-item:hover h3 {
+  color: #008080;
+}
+
+.project-content {
+  display: flex;
+  align-items: center;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  padding-left: 20%;
+}
+
+.project-header h3 {
+  width: 60%;
+  text-align:left;
+}
+
+.project-header p {
+  width: 100%;
+  text-align: left;
+  line-height: 1.5; 
+}
+
+.project-header-right {
+  width: 60%;
+  text-align: left;
+}
+.project-responsibilities {
+  text-align: left;
+  color: #f0f0f0;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  margin-left: auto;
+}
+
 .projects-section {
-    text-align: center;
-    border: 2px solid black;
-    background-color: black;
-  }
-  
-  .projects-title {
-    font-size: 30px;
-    font-weight: bold;
-    color: black;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .projects-container {
-    gap: 20px;
-  }
-  
-  .project {
-    display: flex;
-    border-radius: 10px;
-    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3);
-    max-width: 1200px;
-    margin: auto;
-    background-color: white;
-    margin-bottom: 20px;
-  }
-  
-  .project-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .project-left {
-    flex: 1.1;
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .project-right {
-    flex: 2;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .project-right a {
-    display: block;
-    margin-top: 10px;
-  }
-  
-  .project-title {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .project-subtitle {
-    font-size: 16px;
-    font-weight: bold;
-    font-family: "Montserrat", sans-serif;
-    color: #555;
-  }
-  
-  .project-description {
-    margin-top: 10px;
-    font-family: "Montserrat", sans-serif;
-  }
+  text-align: center;
+  border: 2px solid black;
+  background-color: black;
+}
+
+.projects-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
+.projects-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.project-image {
+  width: 20%;
+  height: 60%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.project-title {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+}
+
+.project-description {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
