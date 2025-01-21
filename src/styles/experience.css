@@ -1,0 +1,70 @@
+.experience {
+    text-align: center;
+    background-color: black;
+    border: 2px solid black;
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-item {
+    background-color: black;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 65%;
+    color: #f0f0f0;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-left: auto;
+    position: relative;
+}
+
+.experience-item:hover {
+    color: #ffffff;
+    box-shadow: 0 0 15px rgba(0, 179, 179, 0.8);
+}
+
+.experience-item h3 {
+    margin-bottom: 10px;
+    color: #f0f0f0;
+}
+
+.experience-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.experience-header-right {
+    width: 60%;
+    text-align:left;
+}
+
+.experience-responsibilities {
+    text-align: left;
+    color: #f0f0f0;
+    line-height: 1.2; 
+    margin: 0;
+    width: 60%;
+    margin-left: auto; 
+    padding: 0;
+}
+
+.experience-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+.experience-item:hover h3 {
+    color: #008080;
+}
+
+.experience-item:hover .experience-header p {
+    color: #008080;
+}

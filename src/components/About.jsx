@@ -10,10 +10,9 @@ const AboutSection = () => {
       </div>
       <div className="additional-info">
         <p>
-          My name is Shriyan and I am a computer science student with a passion
-          for machine learning, data analytics, and software engineering. I am a
-          continuous learner who is eager for opportunities to employ my diverse
-          skill set to solve real-world problems.
+          My name's Shriyan and i'm a software engineer passionate about machine
+          learning and my favorite work is at the intersection of software
+          development and finance.
         </p>
       </div>
     </div>

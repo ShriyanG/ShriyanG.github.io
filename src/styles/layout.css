@@ -1,0 +1,22 @@
+.home-section {
+  height: 100vh;
+}
+
+.about-section {
+  height: 50vh;
+  background-color: black;
+  color: black;
+  display: flex;
+  border: 2px solid black;
+}
+
+.projects-section {
+  text-align: center;
+  border: 2px solid white;
+  background-color: #e0e0e0;
+}
+
+.skills-section {
+  text-align: center;
+  border: 2px solid white;
+}
