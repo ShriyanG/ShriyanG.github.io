@@ -1,64 +1,94 @@
 .experience {
     text-align: center;
-    background-color: black;
-    border: 2px solid black;
-    flex-grow: 1;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    background-color: #1a1a1a;
+    border: none;
+    min-height: 100vh;
+    display: block;
+    padding: 40px 20px;
 }
 
 .experience-item {
-    background-color: black;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    width: 65%;
-    color: #f0f0f0;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    margin-left: auto;
+    background-color: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+    color: #333;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #e0e0e0;
     position: relative;
+    margin-bottom: 5px;
 }
 
 .experience-item:hover {
-    color: #ffffff;
-    box-shadow: 0 0 15px rgba(0, 179, 179, 0.8);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 128, 128, 0.15);
+    border-color: #008080;
 }
 
 .experience-item h3 {
-    margin-bottom: 10px;
-    color: #f0f0f0;
+    margin-bottom: 5px;
+    color: #2c3e50;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.experience-subtitle {
+    font-size: 14px;
+    color: #008080;
+    font-style: italic;
+    margin: 5px 0 10px 0;
+    font-weight: 500;
 }
 
 .experience-header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    align-items: center;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.experience-header p {
+    color: #666;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0;
+    background: #f8f9fa;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border-left: 3px solid #008080;
 }
 
 .experience-header-right {
-    width: 60%;
-    text-align:left;
+    width: 70%;
+    text-align: left;
 }
 
 .experience-responsibilities {
     text-align: left;
-    color: #f0f0f0;
-    line-height: 1.2; 
+    color: #444;
+    line-height: 1.6;
     margin: 0;
-    width: 60%;
-    margin-left: auto; 
+    width: 100%;
     padding: 0;
+}
+
+.experience-responsibilities p {
+    margin: 8px 0;
+    font-size: 15px;
+    padding-left: 0;
 }
 
 .experience-list {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     flex-direction: column;
-    gap: 20px;
-    padding-right: 50px;
+    align-items: center;
+    gap: 25px;
+    padding: 0;
 }
 
 .experience-item:hover h3 {

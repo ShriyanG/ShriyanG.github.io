@@ -1,0 +1,42 @@
+﻿Shriyan Gosavi        
+(+1) 980-229-6039 | shriyan.gosavi@gmail.com | linkedin.com/in/shriyan-gosavi-1968411a7/ | https://shriyang.github.io/
+
+
+EDUCATION
+University of Illinois at Urbana Champaign | B.S. (Computer Science) | GPA: 3.70/4.0                                      Aug 2020 - Aug 2023
+(Coursework: Artificial Intelligence, Applied ML, Deep Learning for Computer Vision, Systems Programming)
+
+
+EXPERIENCE        
+Charles Schwab | Software Engineer                                                                                                                          Sept 2023 - Present    
+* Built data pipelines and analytics solutions on Snowflake, optimizing data loads and validating Denodo migration with a modular Python testing framework; expanded Pytest coverage to over 80%, reducing production defects by 20%
+* Developed and deployed microservices and API endpoints in the wealth & asset management domain using C# and Google Kubernetes Engine for scalable GCP deployment
+PipeIQ (Generative AI Startup) | Machine Learning Intern                                                                                May 2023 - Aug 2023 
+* Led a machine learning team training  LLMs for automated personalized sales emails and seamlessly integrating React-based front-end with generative AI backend on the company website, resulting in increased B2B customer engagement 
+* Developed Python scripts to automate email thread setup for businesses using Generative AI, achieving a 30% reduction in response time, and seamlessly integrated them with the company website through AWS Lambda, S3, and FastAPI 
+University of Illinois at Urbana Champaign | Undergraduate Researcher                                                    Nov 2022 - Aug 2023 
+* Developed an optimized Python environment to automatically store all variables and Python objects to improve memory management and increase runtime efficiency 
+* Automated testing by programmatically running selected cells and managing object dependencies using Python, resulting in increased testing efficiency 
+Charles Schwab | Software Engineering Intern                                                                                                     May 2022 - Aug 2022
+* Experimented with a range of machine learning models, including decision trees, clustering algorithms, and neural networks to identify optimal Customer segmentation to build and offer personalized financial strategies to customers  
+* Enhanced wealth management ETL processes by building workflows and optimizing database performance using Informatica, SQL, and Denodo data virtualization platform 
+University of Illinois at Urbana Champaign | Course Assistant                                                                           Jan 2022 – May 2023
+* Delivered customized study sessions on data structures and computer architecture, and provided educational support to a team of 20 college students during office hours, resulting in a substantial improvement in their academic performance
+* Created compelling study materials and presentations on data structures in C++, aiding students in comprehending the course material while maintaining an average workload of 8 hours per week
+
+
+PROJECTS        
+Covered Call Options Trading Application                                                                                                Oct 2024 - Present
+* Engineered a full-stack ML trading platform using Python/Flask and Random Forest models, analyzing 100K+ financial records across 15+ technical indicators to generate options insights and price predictions.
+* Built real-time data pipeline (Polygon API, PostgreSQL/Supabase) and deployed RESTful API with responsive Render dashboard, enabling live predictions, backtesting, and automated strategy updates.
+Direct Flights Database                                                                                                                                              Oct 2022 - Dec 2022
+* Utilized MySQL for backend development and React for frontend connectivity to create a seamless travel planning website, featuring advanced queries, stored procedures, and efficient data management
+* Employed Python’s Pandas library to efficiently parse and feed data from a database of over 65K routes into a MySQL server, while leveraging C++ to implement shortest-path algorithms, iterative search methods, and graph structures 
+(ML)B                                                                                                                                                                         Nov 2021 - Dec 2021
+* Utilized Sci-kit machine learning and Numpy libraries to develop the back-end of an app, deploying logistic regression and experimenting with models like Adaboost to predict baseball games with over 60% accuracy 
+* Implemented a Python parser using BeautifulSoup to scrape data from ESPN and MLB-Stats API’s while experimenting with component analysis to factor in the most influential statistics and integrated it with the frontend team using Django 
+
+SKILLS & CERTIFICATIONS
+* Programming Languages: Python, SQL, C++, Java  C, Javascript, HTML, CSS, MongoDB, OCaml, Typescript
+* Developer Tools/Frameworks: React, Linux, Git, Conda, Pandas, Docker, Google Cloud Platform, Firebase, AWS Lambda
+* Certifications: Google Professional Cloud Developer (2024), Google Cloud Certified Associate Cloud Engineer (2023)

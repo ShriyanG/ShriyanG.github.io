@@ -1,42 +1,51 @@
 import React from "react";
 
 const Navbar = () => {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
+  };
+
   return (
     <nav className="navbar-container">
       <ul className="navbar-list">
-        {/* <li>
-          <Link
-            to="about-section"
-            smooth={true}
-            duration={1000}
-            onClick={(event) => handleLinkClick("about-section", event)}
+        <li>
+          <button
+            onClick={() => scrollToSection('about-section')}
             className="navbar-link"
           >
             About
-          </Link>
-        </li> */}
-        {/* <li>
-          <Link
-            to="experience-section"
-            smooth={true}
-            duration={1000}
-            onClick={(event) => handleLinkClick("experience-section", event)}
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => scrollToSection('experience-section')}
             className="navbar-link"
           >
             Experience
-          </Link>
-        </li> */}
-        {/* <li>
-          <Link
-            to="projects-section"
-            smooth={true}
-            duration={1000}
-            onClick={(event) => handleLinkClick("projects-section", event)}
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => scrollToSection('projects-section')}
             className="navbar-link"
           >
             Projects
-          </Link>
-        </li> */}
+          </button>
+        </li>
+        <li>
+          <button
+            onClick={() => scrollToSection('skills-section')}
+            className="navbar-link"
+          >
+            Skills
+          </button>
+        </li>
       </ul>
     </nav>
   );
