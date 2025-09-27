@@ -154,6 +154,7 @@
 
 .education-info {
   width: 100%;
+  max-width: 800px;
 }
 
 .education-heading {
@@ -164,11 +165,52 @@
   font-family: "Montserrat", sans-serif;
 }
 
-.education-details {
+.education-card {
   background: rgba(0, 128, 128, 0.1);
-  padding: 20px;
-  border-radius: 8px;
+  padding: 30px;
+  border-radius: 12px;
   border: 1px solid #008080;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.education-logo-section {
+  flex-shrink: 0;
+}
+
+.education-logo {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.education-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.degree-line {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.coursework-line {
+  font-size: 14px;
+  color: #008080;
+  line-height: 1.4;
+  font-family: "Montserrat", sans-serif;
+}
+
+.gpa-line {
+  font-size: 16px;
+  color: #008080;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 
 .education-header {
@@ -190,15 +232,33 @@
   opacity: 0.9;
 }
 
+.university-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+.university-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.university-text {
+  flex: 1;
+}
+
 .university {
   font-size: 16px;
-  margin: 5px 0;
+  margin: 0 0 5px 0;
   font-weight: 500;
 }
 
 .gpa {
   font-size: 14px;
-  margin: 5px 0;
+  margin: 0;
   color: #008080;
   font-weight: 600;
 }
@@ -238,6 +298,23 @@
 
   .education-heading {
     font-size: 20px;
+  }
+
+  .university-info {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .education-logo {
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -366,47 +443,172 @@
 }
 
 .skills-content {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+  align-items: start;
 }
 
-.skill-category {
-  margin-bottom: 40px;
+.technical-skills {
+  width: 100%;
 }
 
-.skill-category-title {
-  font-size: 24px;
+.skills-subsection-title {
+  font-size: 20px;
   font-weight: 600;
-  color: #2c3e50;
+  color: #008080;
+  margin-bottom: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-align: left;
+}
+
+.additional-title {
+  margin-top: 40px;
+}
+
+.skills-logos-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 25px;
   margin-bottom: 20px;
+}
+
+.skill-logo-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(0, 128, 128, 0.2);
+}
+
+.skill-logo-item:hover {
+  transform: translateY(-3px);
+  background: rgba(0, 128, 128, 0.1);
+  border-color: #008080;
+}
+
+.skill-logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.skill-name {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
   font-family: "Montserrat", sans-serif;
 }
 
-.skills-grid {
+.additional-skills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 12px;
-  margin-bottom: 30px;
 }
 
-.skill-item {
-  background: linear-gradient(135deg, #008080, #20b2aa);
+.additional-skill-item {
+  background: rgba(0, 128, 128, 0.15);
   color: white;
-  padding: 10px 18px;
-  border-radius: 25px;
+  padding: 8px 16px;
+  border-radius: 20px;
   font-size: 14px;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0 3px 10px rgba(0, 128, 128, 0.3);
+  border: 1px solid rgba(0, 128, 128, 0.3);
   transition: all 0.3s ease;
-  cursor: default;
 }
 
-.skill-item:hover {
+.additional-skill-item:hover {
+  background: rgba(0, 128, 128, 0.25);
+  border-color: #008080;
+}
+
+.certifications-section {
+  width: 100%;
+}
+
+.certifications-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.certification-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px;
+  background: rgba(0, 128, 128, 0.1);
+  border-radius: 12px;
+  border: 1px solid #008080;
+  transition: all 0.3s ease;
+}
+
+.certification-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.certification-item:hover {
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(0, 128, 128, 0.4);
-  background: linear-gradient(135deg, #20b2aa, #008080);
+  box-shadow: 0 5px 15px rgba(0, 128, 128, 0.2);
+  background: rgba(0, 128, 128, 0.15);
+}
+
+.cert-icon {
+  font-size: 24px;
+}
+
+.cert-details {
+  flex: 1;
+}
+
+.cert-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.cert-info {
+  font-size: 14px;
+  color: #008080;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .skills-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .skills-subsection-title {
+    text-align: center;
+  }
+
+  .skills-logos-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+  }
+
+  .skill-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .skill-logo-item {
+    padding: 12px;
+  }
 }
 
 .image-container {

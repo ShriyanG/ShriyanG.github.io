@@ -1,5 +1,6 @@
 import React from "react";
 import profileImage from "./pictures/profile.jpg";
+import uiucLogo from "./pictures/uiuc.png";
 
 const AboutSection = () => {
   return (
@@ -19,16 +20,15 @@ const AboutSection = () => {
 
           <div className="education-info">
             <h3 className="education-heading">Education</h3>
-            <div className="education-details">
-              <div className="education-header">
-                <span className="degree">Bachelor of Science in Computer Science</span>
-                <span className="graduation">August 2023</span>
+            <div className="education-card">
+              <div className="education-logo-section">
+                <img src={uiucLogo} alt="University of Illinois logo" className="education-logo" />
               </div>
-              <p className="university">University of Illinois at Urbana-Champaign</p>
-              <p className="gpa"><strong>GPA:</strong> 3.70/4.0</p>
-              <p className="coursework">
-                <strong>Key Coursework:</strong> Artificial Intelligence, Applied ML, Deep Learning for Computer Vision, Systems Programming
-              </p>
+              <div className="education-content">
+                <div className="degree-line">Bachelor of Science in Computer Science</div>
+                <div className="coursework-line"><strong>Key Coursework:</strong> Artificial Intelligence, Applied ML, Deep Learning for Computer Vision, Systems Programming</div>
+                <div className="gpa-line"><strong>GPA:</strong> 3.70/4.0</div>
+              </div>
             </div>
           </div>
         </div>
