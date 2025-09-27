@@ -4,6 +4,7 @@ import AboutSection from "./components/About";
 import ExperienceSection from "./components/Experience";
 import ProjectsSection from "./components/Projects";
 import SkillsSection from "./components/Skills";
+import ContactSection from "./components/Contact";
 import VerticalProgressBar from "./components/VerticalProgressBar";
 import HamburgerIcon from "./components/HamburgerIcon";
 
@@ -34,6 +35,10 @@ const App = () => {
 
       <div id="skills-section" className="skills-section">
         <SkillsSection />
+      </div>
+
+      <div id="contact-section" className="contact-section">
+        <ContactSection />
       </div>
     </div>
   );

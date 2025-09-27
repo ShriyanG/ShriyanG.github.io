@@ -622,3 +622,126 @@
   margin-right: 0;
   margin-bottom: 30px;
 }
+
+.contact-section {
+  background-color: #000000;
+  padding: 60px 20px;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-card {
+  background: rgba(0, 128, 128, 0.1);
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #008080;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contact-message {
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  margin: 0 0 15px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-description {
+  font-size: 18px;
+  color: #008080;
+  line-height: 1.6;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background: rgba(0, 128, 128, 0.05);
+  border-radius: 12px;
+  border: 1px solid rgba(0, 128, 128, 0.3);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-item:hover {
+  background: rgba(0, 128, 128, 0.15);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 128, 128, 0.2);
+  border-color: #008080;
+}
+
+.contact-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.contact-details {
+  flex: 1;
+  text-align: left;
+}
+
+.contact-label {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 5px 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.contact-value {
+  font-size: 16px;
+  color: #008080;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 30px 20px;
+    gap: 30px;
+  }
+
+  .contact-title {
+    font-size: 24px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+  }
+
+  .contact-icon {
+    font-size: 28px;
+  }
+
+  .contact-label {
+    font-size: 16px;
+  }
+
+  .contact-value {
+    font-size: 14px;
+  }
+}

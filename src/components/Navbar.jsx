@@ -46,6 +46,14 @@ const Navbar = () => {
             Skills
           </button>
         </li>
+        <li>
+          <button
+            onClick={() => scrollToSection('contact-section')}
+            className="navbar-link"
+          >
+            Contact
+          </button>
+        </li>
       </ul>
     </nav>
   );
