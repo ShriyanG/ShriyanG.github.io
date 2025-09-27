@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import backgroundImage from "./pictures/background.png";
@@ -7,12 +7,11 @@ import Navbar from "./Navbar";
 
 const Home = () => {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
+  const particlesLoaded = useCallback(async () => {
+    // Particles loaded
   }, []);
 
   return (
@@ -28,6 +27,14 @@ const Home = () => {
           className="button"
         >
           LinkedIn
+        </a>
+        <a
+          href="https://www.linkedin.com/in/shriyan-gosavi-1968411a7/overlay/1758821361996/single-media-viewer/?profileId=ACoAADBbG8IBeRbdnxBx9K4gHcE0QU2Nor5BhQQ"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="button"
+        >
+          Resume
         </a>
         <a
           href="https://github.com/ShriyanG"
@@ -53,7 +60,7 @@ const Home = () => {
             enable: false,
             zIndex: 0,
           },
-          fpsLimit: 60,
+          fpsLimit: 30,
           interactivity: {
             events: {
               onClick: {
@@ -71,7 +78,7 @@ const Home = () => {
                 quantity: 4,
               },
               repulse: {
-                distance: 200,
+                distance: 100,
                 duration: 0.4,
               },
             },
@@ -105,7 +112,7 @@ const Home = () => {
                 enable: true,
                 area: 800,
               },
-              value: 50,
+              value: 30,
             },
             opacity: {
               value: 0.5,

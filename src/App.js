@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import AboutSection from "./components/About";
 import ExperienceSection from "./components/Experience";
 import ProjectsSection from "./components/Projects";
+import SkillsSection from "./components/Skills";
+import ContactSection from "./components/Contact";
 import VerticalProgressBar from "./components/VerticalProgressBar";
 import HamburgerIcon from "./components/HamburgerIcon";
 
@@ -19,16 +21,24 @@ const App = () => {
         <Home />
       </div>
 
-      <div className="about-section">
+      <div id="about-section" className="about-section">
         <AboutSection />
       </div>
 
-      <div className="experience-section">
+      <div id="experience-section" className="experience-section">
         <ExperienceSection />
       </div>
 
-      <div className="projects-section">
+      <div id="projects-section" className="projects-section">
         <ProjectsSection />
+      </div>
+
+      <div id="skills-section" className="skills-section">
+        <SkillsSection />
+      </div>
+
+      <div id="contact-section" className="contact-section">
+        <ContactSection />
       </div>
     </div>
   );

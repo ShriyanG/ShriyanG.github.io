@@ -1,46 +1,37 @@
-import React from "react";
 import Project from "./Project";
 import MLBImage from "./pictures/MLB.png";
 import planeImage from "./pictures/plane.png";
-import roundTableImage from "./pictures/roundtable.jpeg";
 import stocksImage from "./pictures/stocks.jpg";
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Stocks Analyzer",
+      title: "Covered Call Options Trading Application",
       description:
-        "Created a regression model to evaluate stock market trends by correlating options contracts with RSI indicators, improving trading predictions and achieving a Top 250 placement in IMC’s global trading competition. Automated preprocessing of interval-based stock data for RSI, volume, and price analysis using the Pandas library and Polygon.io Stock Data API.",
+        "Engineered a full-stack ML trading platform using Python/Flask and Random Forest models, analyzing 100K+ financial records across 15+ technical indicators to generate options insights and price predictions. Applied these same trading strategies to achieve a top placement in IMC's 2024 global trading challenge. Built real-time data pipeline (Polygon API, PostgreSQL/Supabase) and deployed RESTful API with responsive Render dashboard.",
       image: stocksImage,
-      codeLink: "https://github.com/ShriyanG/RSI_Stocks_Gosavi",
-    },
-    {
-      title: "ML(B)",
-      description:
-        "Utilized Sci-kit Learn, Numpy, and BeautifulSoup to develop a baseball prediction app backend with logistic regression and Adaboost models achieving over 60% accuracy, scraping data from ESPN and MLB-Stats APIs, analyzing key statistics with component analysis, and integrating with the frontend via Django.",
-      image: MLBImage,
-      codeLink: "https://github.com/CS196Illinois/Group25",
+      codeLink: "https://github.com/ShriyanG/covered-call-app",
     },
     {
       title: "Direct Flights Database",
       description:
-        "Leveraged MySQL, React, Python, and C++ to develop a travel planning website, implementing advanced queries and efficient data management to handle a database of over 65K routes, parsing data with Python’s Pandas, and employing C++ algorithms like shortest-path and graph structures to enable users to find optimal flight paths.",
+        "Utilized MySQL for backend development and React for frontend connectivity to create a seamless travel planning website, featuring advanced queries, stored procedures, and efficient data management. Employed Python's Pandas library to efficiently parse and feed data from a database of over 65K routes into a MySQL server, while leveraging C++ to implement shortest-path algorithms, iterative search methods, and graph structures.",
       image: planeImage,
       codeLink:
         "https://github.com/lotlouischoitslab/Direct-Flight-Airport-Connections",
     },
     {
-      title: "RoundTable",
+      title: "(ML)B",
       description:
-        "Collaborated in a hackathon team to build a front-end web application using ReactJS, styled with HTML and CSS, to connect college students. Integrated Google Firebase authentication and worked with teammates to configure a NoSQL database in Google Cloud Firestore for storing user login information.",
-      image: roundTableImage,
-      codeLink: "https://github.com/jathinnm/HackThis2020",
+        "Utilized Sci-kit machine learning and Numpy libraries to develop the back-end of an app, deploying logistic regression and experimenting with models like Adaboost to predict baseball games with over 60% accuracy. Implemented a Python parser using BeautifulSoup to scrape data from ESPN and MLB-Stats API's while experimenting with component analysis to factor in the most influential statistics and integrated it with the frontend team using Django.",
+      image: MLBImage,
+      codeLink: "https://github.com/CS196Illinois/Group25",
     },
   ];
 
   return (
     <div className="projects-section">
-      <h1 className="projects-title"> Projects</h1>
+      <h1 className="section-heading">Projects</h1>
       <div className="projects-container">
         {projects.map((project, index) => (
           <Project key={index} {...project} />

@@ -3,20 +3,21 @@
 }
 
 .about-section {
-  height: 50vh;
+  min-height: 100vh;
   background-color: black;
   color: black;
-  display: flex;
-  border: 2px solid black;
+  display: block;
+  border: none;
 }
 
 .projects-section {
   text-align: center;
-  border: 2px solid white;
-  background-color: #e0e0e0;
+  border: none;
+  background-color: #0d0d0d;
 }
 
 .skills-section {
   text-align: center;
-  border: 2px solid white;
+  border: none;
+  background-color: #111111;
 }
