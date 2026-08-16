@@ -4,14 +4,20 @@ import ExperienceItem from "./ExperienceItem";
 const professionalExperiences = [
   {
     title: "Software Engineer",
-    subtitle: "Promoted from Software Engineering Intern",
-    company: "Charles Schwab",
-    duration: "May 2022 - Present",
+    company: "Avride",
+    duration: "Apr 2026 - Present",
     responsibilities: [
-      "Built data pipelines and analytics solutions on Snowflake, optimizing data loads and validating Denodo migration with modular Python testing framework",
-      "Expanded Pytest coverage to 80%+, reducing production defects by 20% while developing microservices using C# and Google Kubernetes Engine",
-      "Developed ML models (decision trees, clustering, neural networks) for customer segmentation, enabling personalized financial strategies for clients",
-      "Enhanced wealth management ETL processes using Informatica, SQL, and Denodo data virtualization platform"
+      "Built and enhanced simulation evaluation metrics used in autonomous system testing pipelines, improving consistency and reliability of performance evaluation across large-scale simulation runs.",
+      "Developed end-to-end data pipelines using Python to process large-scale simulation logs, integrating metric validation and analytics workflows that ensured the accuracy of production evaluation outputs.",
+    ],
+  },
+  {
+    title: "Software Engineer",
+    company: "Charles Schwab",
+    duration: "Sept 2023 - Mar 2026",
+    responsibilities: [
+      "Architected and rebuilt end-to-end financial data pipelines in Python on VMs and Snowflake, modernizing legacy ETL workflows, optimizing data loads, and ensuring scalable, reliable processing across wealth & asset management datasets.",
+      "Built analytics solutions with modular Python testing frameworks and Splunk, expanding Pytest coverage to 80%+, reducing production defects by 20%, and processing millions of records daily across multiple financial datasets.",
     ],
   },
   {
@@ -19,26 +25,17 @@ const professionalExperiences = [
     company: "PipeIQ (Generative AI Startup)",
     duration: "May 2023 - August 2023",
     responsibilities: [
-      "Led machine learning team training LLMs for automated personalized sales emails, seamlessly integrating React frontend with generative AI backend",
-      "Developed Python scripts automating email thread setup using Generative AI, achieving 30% reduction in response time via AWS Lambda, S3, and FastAPI",
+      "Led a machine learning team training LLMs for automated personalized sales emails and seamlessly integrating React-based front-end with GenAI backend on the company website, resulting in increased B2B customer engagement.",
+      "Developed Python scripts to automate email thread setup for businesses using Generative AI, achieving a 30% reduction in response time, and seamlessly integrated them with the company website through AWS Lambda, S3, and FastAPI.",
     ],
   },
   {
     title: "Undergraduate Researcher",
-    company: "University of Illinois",
+    company: "University of Illinois at Urbana Champaign",
     duration: "November 2022 - August 2023",
     responsibilities: [
-      "Developed optimized Python environment for automatic variable storage, improving memory management and runtime efficiency",
-      "Automated testing framework for Jupyter notebooks, increasing testing efficiency through dependency management systems",
-    ],
-  },
-  {
-    title: "Course Assistant",
-    company: "University of Illinois",
-    duration: "January 2022 - May 2023",
-    responsibilities: [
-      "Delivered customized study sessions on data structures and computer architecture, providing educational support to 20+ students during office hours",
-      "Created compelling study materials and presentations on data structures in C++, substantially improving student academic performance",
+      "Optimized Python runtime environment to automatically persist and retrieve variables, improving memory utilization and reducing execution time across research workflows.",
+      "Developed an automated notebook testing system to execute dependent cells and manage object hierarchies, streamlining validation and reducing experiment runtime.",
     ],
   },
 ];

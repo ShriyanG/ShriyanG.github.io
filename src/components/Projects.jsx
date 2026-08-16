@@ -1,31 +1,32 @@
 import Project from "./Project";
+import aiAnalystImage from "./pictures/ai_analyst.png";
 import MLBImage from "./pictures/MLB.png";
 import planeImage from "./pictures/plane.png";
+import ragPipelineImage from "./pictures/rag_pipeline.svg";
 import stocksImage from "./pictures/stocks.jpg";
 
 const ProjectsSection = () => {
   const projects = [
     {
-      title: "Covered Call Options Trading Application",
+      title: "AI Data Analyst Agent | Jul 2026 - Aug 2026",
       description:
-        "Engineered a full-stack ML trading platform using Python/Flask and Random Forest models, analyzing 100K+ financial records across 15+ technical indicators to generate options insights and price predictions. Applied these same trading strategies to achieve a top placement in IMC's 2024 global trading challenge. Built real-time data pipeline (Polygon API, PostgreSQL/Supabase) and deployed RESTful API with responsive Render dashboard.",
+        "Engineered an AI-powered data analysis agent using LangGraph, Ollama, DuckDB, Pandas, and Streamlit, enabling natural-language querying and automated analysis of structured datasets. Designed an agentic workflow that dynamically selects analytical tools, executes data transformations and queries, and generates context-aware visualizations and insights.",
+      image: aiAnalystImage,
+      codeLink: "https://github.com/ShriyanG",
+    },
+    {
+      title: "RAG-Based Document Retrieval Pipeline | Dec 2025 - Feb 2026",
+      description:
+        "Built a retrieval-augmented generation (RAG) system with local and OpenAI GPT models, exposed via a scalable FastAPI endpoint for contextual Q&A across hundreds of pages with page-level metadata. Designed and implemented a backend pipeline to extract, process, and store PDFs in Supabase, enabling seamless document retrieval and modular storage switching between local and cloud.",
+      image: ragPipelineImage,
+      codeLink: "https://github.com/ShriyanG",
+    },
+    {
+      title: "Algorithmic Trading & ML Platform | Apr 2024 - Oct 2025",
+      description:
+        "Engineered ML-driven trading applications using Python, Flask, Random Forest, and regression models, analyzing 100K+ financial records across 15+ technical indicators to generate options insights, price predictions, and trading strategies. Developed real-time market-data pipelines with Polygon API and PostgreSQL/Supabase for minute-level analysis and backtesting, achieving >60% predictive accuracy and ranking top 250 globally in the IMC Trading Challenge.",
       image: stocksImage,
       codeLink: "https://github.com/ShriyanG/covered-call-app",
-    },
-    {
-      title: "Direct Flights Database",
-      description:
-        "Utilized MySQL for backend development and React for frontend connectivity to create a seamless travel planning website, featuring advanced queries, stored procedures, and efficient data management. Employed Python's Pandas library to efficiently parse and feed data from a database of over 65K routes into a MySQL server, while leveraging C++ to implement shortest-path algorithms, iterative search methods, and graph structures.",
-      image: planeImage,
-      codeLink:
-        "https://github.com/lotlouischoitslab/Direct-Flight-Airport-Connections",
-    },
-    {
-      title: "(ML)B",
-      description:
-        "Utilized Sci-kit machine learning and Numpy libraries to develop the back-end of an app, deploying logistic regression and experimenting with models like Adaboost to predict baseball games with over 60% accuracy. Implemented a Python parser using BeautifulSoup to scrape data from ESPN and MLB-Stats API's while experimenting with component analysis to factor in the most influential statistics and integrated it with the frontend team using Django.",
-      image: MLBImage,
-      codeLink: "https://github.com/CS196Illinois/Group25",
     },
   ];
 

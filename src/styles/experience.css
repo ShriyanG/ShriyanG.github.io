@@ -45,12 +45,13 @@
 .experience-header {
     display: flex;
     justify-content: space-between;
+    gap: 16px;
     width: 100%;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 15px;
 }
 
-.experience-header p {
+.experience-duration {
     color: #666;
     font-weight: 600;
     font-size: 14px;
@@ -59,11 +60,17 @@
     padding: 6px 12px;
     border-radius: 6px;
     border-left: 3px solid #008080;
+    flex-shrink: 0;
 }
 
 .experience-header-right {
-    width: 70%;
+    flex: 1;
+    width: auto;
     text-align: left;
+}
+
+.experience-header-right h3 {
+    margin: 0;
 }
 
 .experience-responsibilities {
@@ -95,6 +102,18 @@
     color: #008080;
 }
 
-.experience-item:hover .experience-header p {
+.experience-item:hover .experience-duration {
     color: #008080;
+}
+
+@media (max-width: 768px) {
+    .experience-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .experience-duration {
+        order: -1;
+    }
 }

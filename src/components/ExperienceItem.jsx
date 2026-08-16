@@ -11,13 +11,13 @@ const ExperienceItem = ({
   return (
     <div className="experience-item">
       <div className="experience-header">
-        <p>{duration}</p>
         <div className="experience-header-right">
           <h3>
             {title} | {company}
           </h3>
           {subtitle && <p className="experience-subtitle">{subtitle}</p>}
         </div>
+        <p className="experience-duration">{duration}</p>
       </div>
       <div className="experience-responsibilities">
         {responsibilities.map((resp, index) => (
