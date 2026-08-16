@@ -12,14 +12,14 @@ const ProjectsSection = () => {
       description:
         "Engineered an AI-powered data analysis agent using LangGraph, Ollama, DuckDB, Pandas, and Streamlit, enabling natural-language querying and automated analysis of structured datasets. Designed an agentic workflow that dynamically selects analytical tools, executes data transformations and queries, and generates context-aware visualizations and insights.",
       image: aiAnalystImage,
-      codeLink: "https://github.com/ShriyanG",
+      codeLink: "https://github.com/ShriyanG/ai-data-analyst-agent",
     },
     {
       title: "RAG-Based Document Retrieval Pipeline | Dec 2025 - Feb 2026",
       description:
         "Built a retrieval-augmented generation (RAG) system with local and OpenAI GPT models, exposed via a scalable FastAPI endpoint for contextual Q&A across hundreds of pages with page-level metadata. Designed and implemented a backend pipeline to extract, process, and store PDFs in Supabase, enabling seamless document retrieval and modular storage switching between local and cloud.",
       image: ragPipelineImage,
-      codeLink: "https://github.com/ShriyanG",
+      codeLink: "https://github.com/ShriyanG/rag-document-search",
     },
     {
       title: "Algorithmic Trading & ML Platform | Apr 2024 - Oct 2025",
